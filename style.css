@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    padding: 1rem;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,86,1) 100%);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logo {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   margin-left: 20px; 
+}
+
+.nombreEmpresa {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(199,205,186);
+    background: linear-gradient(90deg, rgba(199,205,186,1) 0%, rgba(165,172,180,1) 100%);
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    box-shadow: 50px 50px black;
+}
+.excursiones-titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+.contenedor-excursiones, .excursiones-proximas {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: bisque;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 50px;
+}
+
+.excursion-imagen {
+    max-width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 25px black;
+}
+
+.excursion-titulo {
+    font-size: 20px;
+}
+.excursion-detalles {
+    background-color: darksalmon;
+    border-radius: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-top: -1rem;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.excursion-agregar {
+    width: 90%;
+    border: 0;
+    border-radius: 10px;
+    color: rgb(170, 33, 61);
+    cursor: pointer;
+}
+
+.excursion-agregar:hover {
+    background-color: cadetblue;
+    color: black;
+    border: 1px solid;
+    border-color: rgb(192, 8, 155);
+    font-size: 15px;
+}
+
+.boton-carrito {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.boton-carrito:hover {
+    background-color: cadetblue;
+    color: black;
+    border: 1px solid;
+    border-color: rgb(192, 8, 155);
+    font-size: 15px;
+}
+
+.bi {
+    color: black;
+}
+
+/* ******CARRITO******* */
+
+.bodyCarrito {
+    width: 100%;
+    height: 100%;
+    background: rgb(125,128,119);
+    background: linear-gradient(90deg, rgba(125,128,119,1) 0%, rgba(131,134,138,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-carrito {
+    font-size: larger;
+    color: black;
+    width: 80%;
+    background-color: antiquewhite;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(196, 230, 73);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contenedor-excursiones__carrito {
+    margin-top: 20px;
+}
+
+.seguirComprando {
+    outline: none;
+    color: black;
+}
+
+.excursiones-titulo {
+    font-style: none;
+    color: black;
+}
+
+.volverAcomprar, .vaciarCarrito, .comprar {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.volverAcomprar:hover, .vaciarCarrito:hover, .comprar:hover {
+    background-color: cadetblue;
+    color: black;
+    border: 1px solid;
+    border-color: rgb(192, 8, 155);
+    font-size: 15px;
+}
+
+.carritoConProductos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.excursionElegida {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: bisque;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;  
+}
+
+.imagenProductoElegido {
+    width: 100px;
+}
+
+.excursion-detalles-elegido {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    background-color: none;
+}
+
+.descripcion-elegida {
+    font-size: 15px;
+    background-color: none;
+}
+
+.precioExcursionElegida {
+    font-size: 20px;
+    background-color: none; 
+}
+
+.bi-file-excel {
+    font-size: large;
+    border: none;
+}
+
+.bi-file-excel:hover {
+    background-color: cadetblue;
+    color: black;
+    border: 1px solid;
+    border-color: rgb(192, 8, 155);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bi-trash-fill {
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.disabled {
+    display: none;
+}

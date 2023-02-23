@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./assets/img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Excursiones Mendoza</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="./assets/img/logo.jpg" alt="Logo de excursiones Mendoza">
+        <h1 class="nombreEmpresa">EXCURSIONES MENDOZA</h1>
+    </header>
+
+    <main class="contenedor">
+        <h2 class="excursiones-titulo">Elija salida</h2>
+        <div id="contenedor-excursiones" class="contenedor-excursiones">
+            <!-- JS -->
+        </div>
+        <div class="carrito">
+            <a target="_self" href="./carrito.html">
+                <button class="boton-carrito">
+                    <i class="bi bi-cart-fill"></i> <span id="numerito" class="numerito">0</span>
+                </button>
+            </a>        
+        </div>
+        <div class="excursiones-proximas">
+            <h2 id="titulo-excursiones-proximas" class="titulo-excursiones-proximas">Próximas Excursiones:</h2>
+            <ul id="lista-excursiones-proximas" class="lista-excursiones-proximas"></ul>
+        </div>
+    </main>
+        
+    <footer>
+       
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

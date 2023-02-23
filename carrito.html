@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./assets/img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Excursiones Mendoza Carrito</title>
+</head>
+
+<body class="bodyCarrito">
+    <header class="header">
+        <img class="logo" src="./assets/img/logo.jpg" alt="Logo de excursiones Mendoza">
+        <h1 class="nombreEmpresa">EXCURSIONES MENDOZA</h1>
+    </header>
+
+    <main class="contenedor-carrito">
+        <div class="contenedor-carrito__compra">
+            <h2 class="excursiones-titulo">Excursiones elegidas</h2>
+            <div class="contenedor-excursiones__carrito">
+                <p id="carrito-vacio" class="carritoVacio">Carrito vacío</p>
+
+                <div id="carrito-excursiones" class="carritoConProductos disabled">
+                    <!-- JS -->
+                </div>
+                <a class="SeguirComprando" target="_self" href="./index.html">
+                <button class="volverAcomprar">Seguir Comprando</button> 
+                </a>  
+            </div>
+            <div id="carrito-acciones" class="carrito-acciones disabled" >
+                <div class="divVaciarCarrito">
+                    <button id="vaciar-carrito" class="vaciarCarrito">Vaciar Carrito<i class="bi bi-trash-fill"></i></button>
+                </div>
+        
+                <div class="divTotalCompra">
+                    <p>Total</p>
+                    <p id="total">$1000</p>
+                    <button id="comprar-carrito" class="comprar">Comprar</button>
+                </div>
+            </div>
+            <p id="carrito-comprado" class="gracias disabled">Muchas gracias por tu compra<i class="bi bi-emoji-smile"></i></p>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/carrito.js"></script>
+</body>
+</html>   

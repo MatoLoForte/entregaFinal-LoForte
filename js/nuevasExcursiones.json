@@ -1,0 +1,17 @@
+[
+    {
+        "id": "excursion-7",
+        "titulo": "Valle de Uco",
+        "descripcion": "Recorrer bodegas y paisajes"
+    },
+    {
+        "id": "excursion-8",
+        "titulo": "Malargüe, Reserva Provincial La Payunia, Caverna de Las Brujas",
+        "descripcion": "Recorrer paisajes, degustación de comidas"
+    },
+    {
+        "id": "excursion-9",
+        "titulo": "San Juan",
+        "descripcion": "Recorrer Valle de la Luna"
+    }
+]
